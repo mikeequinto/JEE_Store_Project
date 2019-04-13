@@ -1,6 +1,9 @@
 /***********************************Element styles**********************************/
 body{
     font-family: 'Roboto', sans-serif;
+    background-image: url("/images/dog_wallpaper.jpeg");
+    background-size: cover;
+    background-position: center center;
 }
 a{
     text-decoration: none;
@@ -17,4 +20,12 @@ i{
 
 .right-side{
     float: right;
+}
+
+/***********************************Id styles**********************************/
+#content{
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.3);
+
 }
