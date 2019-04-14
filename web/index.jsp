@@ -28,10 +28,13 @@
       <h1><fmt:message key="title" bundle="${msg}" /></h1>
     </div>
     <div id="description">
-      <p><fmt:message key="description" bundle="${msg}" />!</p>
+      <p><fmt:message key="description" bundle="${msg}" /></p>
     </div>
     <div id="products">
-      <p>products</p>
+      <h3><fmt:message key="top-products" bundle="${msg}" /></h3>
+      <div id="top-products">
+
+      </div>
     </div>
   </div>
 </body>
