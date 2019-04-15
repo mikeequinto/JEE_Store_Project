@@ -28,12 +28,15 @@
       <h1><fmt:message key="title" bundle="${msg}" /></h1>
     </div>
     <div id="description">
-      <p><fmt:message key="description" bundle="${msg}" /></p>
+      <h3><fmt:message key="description" bundle="${msg}" /></h3>
     </div>
     <div id="products">
-      <h3><fmt:message key="top-products" bundle="${msg}" /></h3>
+      <h2><fmt:message key="top-products" bundle="${msg}" /></h2>
       <div id="top-products">
-
+        <div class="top-product"><img src="images/product_images/71rqTtawU2L._SL1500_.jpg" /></div>
+        <div class="top-product"><img src="images/product_images/cat_home.png" /></div>
+        <div class="top-product"><img src="images/product_images/leash.jpg" /></div>
+        <div class="top-product"><img src="images/product_images/dog_cage.jpg" /></div>
       </div>
     </div>
   </div>

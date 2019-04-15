@@ -10,17 +10,25 @@ a{
 }
 i{
     color : black;
-    font-size: medium;
+    font-size: 30px;
 }
 
 
 /***********************************Class styles**********************************/
 .left-side{
-    float: left;
 }
 
 .right-side{
     float: right;
+}
+
+.top-product{
+    flex: 1;
+}
+
+.top-product img{
+    width: 260px;
+    height: 240px;
 }
 
 /***********************************Id styles**********************************/
@@ -29,4 +37,12 @@ i{
     margin: 0 auto;
     background-color: rgba(255,255,255,0.3);
 
+}
+
+#title h1{
+    font-size: 50px;
+}
+
+#top-products{
+    display: flex;
 }
