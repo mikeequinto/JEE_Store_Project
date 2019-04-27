@@ -18,7 +18,6 @@
 </head>
 <body>
   <div id="navbar">
-    <div><a href="#"><i class="fas fa-home"></i></a></div>
     <div class="right-side">
       <a href="#">
         <i class="fas fa-shopping-cart"></i>
@@ -37,20 +36,36 @@
     <div id="products">
       <h2><fmt:message key="top-products" bundle="${msg}" /></h2>
       <div id="top-products">
-        <!-- <a href="#">
-          <div class="top-product inline-element"></div>
+        <a href="#">
+          <div class="top-product inline-element">
+            <p>Dog cage</p>
+            <form action="">
+              <button type="submit" class="btn btn-default">
+                CHF 999.- <i class="fa fa-shopping-cart"></i>
+              </button>
+            </form>
+          </div>
         </a>
         <a href="#">
-          <div class="top-product inline-element"></div>
+          <div class="top-product inline-element">
+            <p>Dog cage</p>
+            <form action="">
+              <button type="submit" class="btn btn-default">
+                CHF 999.- <i class="fa fa-shopping-cart"></i>
+              </button>
+            </form>
+          </div>
         </a>
         <a href="#">
-          <div class="top-product inline-element"></div>
-        </a> -->
-
-          <a href="#" class="block"></a>
-          <a href="#"></a>
-          <a href="#"></a>
-
+          <div class="top-product inline-element">
+            <p>Dog cage</p>
+            <form action="">
+              <button type="submit" class="btn btn-default">
+                CHF 999.- <i class="fa fa-shopping-cart"></i>
+              </button>
+            </form>
+          </div>
+        </a>
 
         <!--
         <div class="top-product inline-element">

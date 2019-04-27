@@ -11,7 +11,7 @@ a{
 }
 i{
     color : black;
-    font-size: 30px; <!-- -->
+    font-size: 30px;
 }
 
 hr{
@@ -28,29 +28,27 @@ hr{
 }
 
 .top-product{
-    /*padding: 15px;
-    margin-bottom: 20px;
-    background-color: white;*/
     width: 28%;
-    padding-top: 75%;
+    padding-top: 15%;
+    background-image: url("../images/product_images/dog_cage.jpg");
+    background-size: 100% 100%;
+    position: relative;
 }
 
 .top-product + .top-product{
-    margin-left: 2%;
+    margin-left: 4%;
 }
 
 .top-product:hover{
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
-.top-product img{
-    width: 210px;
-    height: 170px;
-
-}
-
-.block{
-    display: block;
+.top-product p{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
 }
 
 /***********************************Id styles**********************************/
