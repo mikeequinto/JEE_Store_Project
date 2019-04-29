@@ -13,4 +13,26 @@
         <servlet-name>Homepage</servlet-name>
         <url-pattern></url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>Products</servlet-name>
+        <servlet-class>ch.hesge.programmation.Products</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Products</servlet-name>
+        <url-pattern>/Products</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Product</servlet-name>
+        <servlet-class>ch.hesge.programmation.Product</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Product</servlet-name>
+        <url-pattern>/Product</url-pattern>
+    </servlet-mapping>
+
+    <!-- Errors -->
+    <error-page>
+        <error-code>404</error-code>
+        <location>/WEB-INF/404.jsp</location>
+    </error-page>
 </web-app>

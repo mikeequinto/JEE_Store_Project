@@ -24,8 +24,8 @@ public class Homepage extends HttpServlet {
         }
 
         //Get cart items
-        session.setAttribute("cart", 0);
-        System.out.println("heyy : " + session.getAttribute("cart"));
+        /*session.setAttribute("cart", 0);
+        System.out.println("heyy : " + session.getAttribute("cart"));*/
 
         //Localité
         String param = request.getParameter("locale");

@@ -29,14 +29,14 @@
   </div>
   <div id="content">
     <div id="title">
-      <a href="#"><h1><fmt:message key="title" bundle="${msg}" /></h1></a>
-      <a href="#"><h4><fmt:message key="description" bundle="${msg}" /></h4></a>
+      <a href="/Products"><h1><fmt:message key="title" bundle="${msg}" /></h1></a>
+      <a href="/Products"><h4><fmt:message key="description" bundle="${msg}" /></h4></a>
     </div>
     <hr>
     <div id="products">
       <h2><fmt:message key="top-products" bundle="${msg}" /></h2>
       <div id="top-products">
-        <a href="#">
+        <a href="/Product?productId=1">
           <div class="top-product inline-element">
             <p>Dog cage</p>
             <form action="">
@@ -46,7 +46,7 @@
             </form>
           </div>
         </a>
-        <a href="#">
+        <a href="/Product">
           <div class="top-product inline-element">
             <p>Dog cage</p>
             <form action="">
@@ -56,7 +56,7 @@
             </form>
           </div>
         </a>
-        <a href="#">
+        <a href="/Product">
           <div class="top-product inline-element">
             <p>Dog cage</p>
             <form action="">
@@ -66,20 +66,6 @@
             </form>
           </div>
         </a>
-
-        <!--
-        <div class="top-product inline-element">
-          <a href="#"><img src="../images/product_images/71rqTtawU2L._SL1500_.jpg" /></a>
-        </div>
-        <div class="top-product inline-element">
-          <a href="#"><img src="../images/product_images/cat_home.png" /></a>
-        </div>
-        <div class="top-product inline-element">
-          <a href="#"><img src="../images/product_images/leash.jpg" /></a>
-        </div>
-        <div class="top-product inline-element">
-          <a href="#"><img src="../images/product_images/dog_cage.jpg" /></a>
-        </div> -->
       </div>
     </div>
   </div>
